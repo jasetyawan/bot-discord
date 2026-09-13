@@ -68,6 +68,12 @@ export async function deployAllCommands(target) {
             clientId: process.env.BRAHMA_CLIENT_ID,
             folderPath: path.join(__dirname, 'brahma/commands'),
         },
+        {
+            botName: 'Kuninotokotachi',
+            token: process.env.KUNINOTOKOTACHI_TOKEN,
+            clientId: process.env.KUNINOTOKOTACHI_CLIENT_ID,
+            folderPath: path.join(__dirname, 'kotachi/commands'),
+        },
     ];
 
     for (const bot of botConfigs) {

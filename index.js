@@ -33,6 +33,7 @@ async function main() {
         // 2. Start Tsukuyomi and Brahma inside their RAM limits
         startBot('Tsukuyomi', 'tsukuyomi/index.js', 285);
         startBot('Brahma', 'brahma/index.js', 285);
+        startBot('Kuninotokotachi', 'kotachi/index.js', 285);
     } catch (err) {
         console.error('❌ [Launcher] Startup failed:', err);
     }
