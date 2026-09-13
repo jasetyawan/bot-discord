@@ -9,7 +9,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // 1. Initialize the Google Gen AI client once
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.KUNINOTOKOTACHI_GEMINI_API_KEY });
 
 // 2. Load the System Instruction / Dialogue text file once
 const personalityPath = path.join(__dirname, '../personality/kotachi_personality.txt');
